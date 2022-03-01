@@ -1,0 +1,207 @@
+
+.popup{
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+}
+
+.popup .button{
+  font-size: 1em;
+  padding: 15px 35px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  background: #403e3d;
+  border-radius: 50px;
+}
+
+.overlay{
+  position: absolute;
+  top: 250px;
+  left: 450px;
+  background: #6600ff;
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target{
+  visibility: visible;
+  opacity: 0.75;
+}
+
+.wrapper{
+  margin: 0px 0px 10px 10px;
+  padding: 5px;
+  border-radius: 5px;
+  width: 85%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.wrapper h2{
+  margin-top: 0;
+  color: #ff66ff;
+  text-align: center;
+}
+
+.wrapper p{
+  color: #ffffff;
+}
+
+.wrapper .content{
+  max-height: 30%;
+  overflow: auto;
+}
+
+.container{
+  text-align: center;
+  border-radius: 5px;
+  letter-spacing: 3px;
+}
+.container .submit_button{
+  background-color: #006600;
+  opacity: 0.9;
+  margin: 20px auto;
+  padding: 10px 10px 10px 10px;
+}
+
+input[type="submit"]{
+  width: 30%;
+  background-color: #006600;
+  color: #ffffff;
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+.container .cancel_button{
+  width: 15%;
+  position: relative;
+  left: 175px;
+}
+
+
+#divTwo {
+  background-color: #051236;
+  position: fixed;
+  padding: 15px 0px 10px 50px;
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  font-family: sans-serif,Arial;
+  font-size: 15px;
+  margin: 0px 10px 0px 10px
+}
+#divTwo:target{
+    visibility: visible;
+    opacity: 0.9;
+}
+
+#divTwo h2{
+  color: #FFC947;
+}
+
+#divTwo p{
+  color: #fff;
+
+}
+
+#divTwo input[type="submit"]{
+  background-color: #faff79;
+  color: #051236;
+  border-radius: 40px;
+}
+
+#divTwo .submit_button:hover{
+  transition: color .30s ease-in-out,background-color .30s ease-in-out,border-color .30s
+   ease-in-out,box-shadow .30s ease-in-out;
+  background-color: #F05454;
+}
+#divTwo .cancel_button{
+  width: 30%;
+  position: relative;
+  left: 50px;
+  opacity: 0.85;
+  margin: 20px auto;
+  padding: 10px 10px 10px 10px;
+  background-color: #F6F9FC;
+  color: #051236;
+  opacity: 0.85;
+  cursor: pointer;
+  border-radius: 40px
+}
+
+.by_collection {
+    color: #777;
+    font: 13px arial;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+}
+
+.now_price_product{
+    font: 22px Arial;
+    color: #111;
+}
+.before_price_product {
+    font: 15px Arial;
+    color: #777;
+}
+
+.shipping_policy {
+    font: 13px Arial;
+    color: #777;
+    display: block;
+    margin-top: 5px;
+}
+
+.checked {
+  color: #051236;
+  vertical-align: middle;
+
+}
+.rating-number{
+    display: inline-block;
+    position: relative;
+    left: 7px;
+    top: 2px;
+    box-sizing: border-box!important;
+    z-index: 2;
+    font: 15px Arial;
+    color: #000;
+    margin-top: 5px;
+}
+img{
+  max-height: 325px;
+  max-width: 100%;
+  width: auto;
+  margin: 0 auto;
+}
+.column{
+  float:left;
+  width: 33%;
+  background-color: transparent;
+  position: relative;
+  height: 325px;
+  max-height: 325px;
+  display: table-cell;
+}
+
+.column:hover, .column:focus {
+    color: #333;
+    text-decoration: underline;
+}
+
+.part_B h2{
+    text-align: center;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #051236;
+    border: 5px auto;
+}
+
+.description p{
+  text-align: justify;
+  margin: 0 150px 0 150px;
+  font: 15px arial;
+}
